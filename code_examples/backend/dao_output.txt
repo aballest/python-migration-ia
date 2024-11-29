@@ -1,0 +1,5 @@
+
+{
+  "repository": "package es.aballest.football.infrastructure.repository;\n\nimport es.aballest.football.domain.model.Customer;\nimport org.springframework.data.jpa.repository.JpaRepository;\nimport org.springframework.stereotype.Repository;\n\n@Repository\npublic interface CustomerRepository extends JpaRepository<Customer, Long> {\n}",
+  "base_filename": "Customer"
+}
